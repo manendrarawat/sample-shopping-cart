@@ -1,0 +1,106 @@
+.parentContainer {
+  padding: 0 15rem 0 15rem;
+  background-color: #cccccc;
+}
+
+.content {
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.productContent {
+  display: flex;
+}
+
+.productContent-item {
+  padding-left: 2rem;
+}
+.productListStyle {
+  list-style: none;
+  margin-bottom: 2rem;
+  font-size: 12px;
+}
+
+.productOptions {
+  display: flex;
+  margin-right: 1rem;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.productOptionsItms {
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+
+.productOptions li:last-child {
+  border-right: none;
+}
+
+.productOptions li:first-child {
+  padding-left: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+
+  margin: 0 auto;
+  padding: 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.container-heading {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+
+  margin: 0 auto;
+  padding: 0px;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+
+.item {
+  padding: 1rem 0 1rem 0;
+  list-style-type: none;
+  width: 70%;
+}
+
+.item2 {
+  padding: 1rem 0 1rem 0;
+  list-style-type: none;
+  width: 10%;
+}
+
+.heading {
+  padding: 1rem 0 1rem 0;
+  list-style-type: none;
+  flex-grow: 1;
+}
+.productBottom {
+  display: flex;
+  list-style: none;
+}
+.modelBox {
+  padding: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.subTotalList {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.subTotalEstimate {
+  font-size: 20px;
+  color: #cccccc;
+  margin-top: 10px;
+}
